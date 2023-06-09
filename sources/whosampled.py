@@ -38,14 +38,9 @@ class WhoSampledScraper(Scraper):
             parts = url.split(".com", 1)
             base_url = parts[0] + ".com"
             start_url = parts[1]
-            
-            # headers to hide web scraping
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
-                'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
-            }
+        
 
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=self.headers)
             response.raise_for_status()
 
             soup = bs(response.text, 'lxml')
@@ -121,7 +116,7 @@ class WhoSampledScraper(Scraper):
 
             while has_next_button:
                 time.sleep(2)
-                response = requests.get(base_url+current_page_url, headers=headers)
+                response = requests.get(base_url+current_page_url, headers=self.headers)
                 response.raise_for_status()
 
                 soup = bs(response.text, 'lxml')
