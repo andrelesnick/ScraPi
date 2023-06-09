@@ -10,7 +10,7 @@ class WhoSampledScraper(Scraper):
     def __init__(self): # filename defaults to empty string if not provided
         super().__init__()
         self.filename = 'whosampled'
-        self.frequency = 60
+        self.frequency = 120
         self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=10) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
         # self.urgent_frequency = 5
         # self.urgent_days = 6
