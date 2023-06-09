@@ -1,0 +1,6 @@
+{
+    "sender": "email@gmail.com",
+    "receiver": "email@gmail.com",
+    "password": "google account 16 digit passphrase",
+    "pushbullet_token": "token"
+}
