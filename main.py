@@ -3,9 +3,7 @@ from datetime import datetime
 import time
 import requests
 
-# todo: add some random variance to scraping so it looks more natural (+/- 15%?)
-
-# todo: fill in email and password
+# todo: add command line arguments just to run certain scrapers
 
 import os, json
 import importlib

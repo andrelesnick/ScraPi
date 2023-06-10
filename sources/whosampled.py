@@ -6,21 +6,24 @@ import re
 import datetime
 from .Scraper import Scraper
 
+# todo: in the future, I could make it so that it only scrapes a few artists at a time so that I won't need to sleep as much inbetween
+# just reduce frequency to 2 hours, but limit it to 2 artists at a time or something
+# store index in json file, and increment it every time it scrapes, mod by number of artists
 class WhoSampledScraper(Scraper):
     def __init__(self): # filename defaults to empty string if not provided
         super().__init__()
         self.filename = 'whosampled'
-        self.frequency = 120
-        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=10) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
+        self.frequency = 240
+        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=0) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
         # self.urgent_frequency = 5
         # self.urgent_days = 6
         self.data = {
             'artists': ['Caravan Palace', 'Tor'], # used for easy way to add artists manually
             'artist_data': {
                     'Nujabes': [{
-                        'title': 'Aruarian Dance',
+                        'title': 'Placeholder - Remove this',
                         'url': 'https://www.whosampled.com/Nujabes/Aruarian-Dance/',
-                        'samples': 3
+                        'samples': 0
                     }
                     ]
             }
@@ -54,7 +57,10 @@ class WhoSampledScraper(Scraper):
             samples_text = samples_element.text if samples_element else "0 samples found"
             num_samples_new = int(re.search(r'\d+', samples_text).group())
 
-            tracks_current = self.data['artist_data'].get(artist_name, [])
+            try:
+                tracks_current = self.data['artist_data'].get(artist_name)
+            except KeyError:
+                print("Artist not found: ", artist_name)
             num_samples_current = sum(track['samples'] for track in tracks_current)
             num_new = num_samples_new - num_samples_current
             body = str(num_new) + f' new sample(s) found for {artist_name}!'
@@ -76,14 +82,14 @@ class WhoSampledScraper(Scraper):
                     sample_count = len(samples)
 
                     # If there is "See more samples" text, extract the number and add it to the count
-                    more_samples = track.find('a', text=re.compile(r'^See \d+ more sample$'))
+                    more_samples = track.find('a', text = re.compile(r'^see \d+ more sample', re.IGNORECASE))
                     if more_samples is not None:
                         more_samples_count = int(re.search(r'\d+', more_samples.text).group())
                         sample_count += more_samples_count
 
                     artist_track_info.append({
                         'title': track_title,
-                        'url': track_url,
+                        'url': track_url+'samples/',
                         'samples': sample_count
                     })
                 print("extracting, artist track info:", artist_track_info)
@@ -144,12 +150,13 @@ class WhoSampledScraper(Scraper):
             for artist in data:
                 artist_name = artist
                 tracks = data[artist_name]  # Get artist's tracks
-                html_string += f'<h2>{artist_name}</h2>'
-                html_string += '<table style="width: 100%; border-collapse: collapse;">'
-                html_string += '<tr style="background-color: #f8f8f8;">' \
-                            '<th style="border: 1px solid #ddd; padding: 8px;">Track Title</th>' \
-                            '<th style="border: 1px solid #ddd; padding: 8px;">Number of Samples</th>' \
-                            '</tr>'
+                if len(tracks) > 0:
+                    html_string += f'<h2>{artist_name}</h2>'
+                    html_string += '<table style="width: 100%; border-collapse: collapse;">'
+                    html_string += '<tr style="background-color: #f8f8f8;">' \
+                                '<th style="border: 1px solid #ddd; padding: 8px;">Track Title</th>' \
+                                '<th style="border: 1px solid #ddd; padding: 8px;">Number of Samples</th>' \
+                                '</tr>'
                 for track in tracks:
                     html_string += '<tr>' \
                                 f'<td style="border: 1px solid #ddd; padding: 8px;"><a href="{track["url"]}">{track["title"]}</a></td>' \
@@ -160,6 +167,8 @@ class WhoSampledScraper(Scraper):
             html_string += '</div>'
             return html_string
 
+        if len(new_samples) == 0:
+            return None
         return {
             'type': 'email',
             'subject': 'New Sample(s) Found!',
