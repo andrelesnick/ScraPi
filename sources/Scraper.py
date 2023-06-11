@@ -14,8 +14,13 @@ class Scraper:
     def __init__(self):
         self.check_again = datetime.now() # time to check again
         self.filename = 'filename'
+        self.name = 'Proper Name'
+        self.description = "A description of the source."
         self.data = {}
         self.frequency = 10
+        self.enabled = True # Whether or not the scraper is active
+        self.has_image = False
+        self.image_url = False
         self.headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
                 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'

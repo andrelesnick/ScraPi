@@ -13,8 +13,10 @@ class WhoSampledScraper(Scraper):
     def __init__(self): # filename defaults to empty string if not provided
         super().__init__()
         self.filename = 'whosampled'
+        self.name = 'WhoSampled'
+        self.description = 'Receive updates when new samples are found for artists you follow.'
         self.frequency = 240
-        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=0) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
+        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=1) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
         # self.urgent_frequency = 5
         # self.urgent_days = 6
         self.data = {
@@ -58,7 +60,7 @@ class WhoSampledScraper(Scraper):
             num_samples_new = int(re.search(r'\d+', samples_text).group())
 
             try:
-                tracks_current = self.data['artist_data'].get(artist_name)
+                tracks_current = self.data['artist_data'].get(artist_name, [])
             except KeyError:
                 print("Artist not found: ", artist_name)
             num_samples_current = sum(track['samples'] for track in tracks_current)
@@ -86,13 +88,14 @@ class WhoSampledScraper(Scraper):
                     if more_samples is not None:
                         more_samples_count = int(re.search(r'\d+', more_samples.text).group())
                         sample_count += more_samples_count
-
+                    if track['samples'] > 3: # if track has more than 3 samples, there's a separate page
+                        track_url += "samples/"
                     artist_track_info.append({
                         'title': track_title,
-                        'url': track_url+'samples/',
+                        'url': track_url,
                         'samples': sample_count
                     })
-                print("extracting, artist track info:", artist_track_info)
+                # print("extracting, artist track info:", artist_track_info)
                 return artist_track_info
 
             # find URLs of new samples
@@ -137,12 +140,13 @@ class WhoSampledScraper(Scraper):
                     current_page_url = next_button.find('a')['href']
             # print(tracks_current)
             # print(all_artist_track_info)
-            print('current artist:' + artist_name)
+            # print('    current artist:' + artist_name)
             new_samples[artist_name] = find_new_samples(tracks_current, all_artist_track_info)
             self.data['artist_data'][artist_name] = all_artist_track_info
 
         # Done going through all artists
-        # print("new samples:", new_samples)
+        if new_samples != {}:
+            print("new samples:", new_samples)
 
         def generate_html(data):
             html_string = '<div style="font-family: Arial, sans-serif;">'
