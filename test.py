@@ -1,10 +1,22 @@
-## used for internal testing
-import json
-# read whosampled.json
-with open('sources/whosampled.json', 'r') as f:
-    data = json.load(f)
+def group_numbers(lst, target_sum):
+    lst.sort(reverse=True)
+    sublists = []
 
-tracks = data['artist_data']['Nujabes']
+    for num in lst:
+        for sublist in sublists:
+            if sum(sublist) + num <= target_sum:
+                sublist.append(num)
+                break
+        else:
+            # If no sublist could accommodate num, start a new one
+            sublists.append([num])
 
-sum_samples = sum(track['samples'] for track in tracks)
-print(sum_samples)
+    return sublists
+
+
+lst = [1,1,1,2,2,2,3,3,3,10,20,13,8,7,5,3,4,3,3,5,11]
+target_sum = 10
+
+sorted = group_numbers(lst, target_sum)
+
+print(sorted)

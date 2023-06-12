@@ -43,8 +43,7 @@ for source_file in source_files:
     module = importlib.import_module(f'sources.{module_name}')
 
     # get scraper instance and add to list
-    if module.scraper.enabled:
-        scrapers.append(module.scraper)
+    scrapers.append(module.scraper)
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -157,10 +156,9 @@ def send_push(push_content, scraper):
         'type': 'link',
         'title': push_content['title'],
         'body': push_content['body'],
-        'url': push_content['url'],
+        # 'url': push_content['url'],
         'channel_tag': scraper.filename
     }
-    print(data['channel_tag'])
 
     # if image:
         # data['file_name'] = image['file_name']
@@ -189,10 +187,11 @@ def send_notification(notification_content, scraper):
 ## todo: include execution statistics, just log time before and after scrape
 
 ## todo: if request error, skip and try again next time
-no_exception = True
-while no_exception:
+while True:
     # loop through all scrapers
     for scraper in scrapers:
+        if not scraper.enabled:
+            print(f"  Skipped {scraper.filename} at {datetime.now().strftime('%H:%M:%S')}")
         # check if it's time to scrape
         if datetime.now() >= scraper.check_again:
             # scrape data
@@ -206,6 +205,7 @@ while no_exception:
             finally:
                 if tb:
                     print(tb, '\n\n')
+                    scraper.enabled = False
                     exception_html = f"""
         <div style="border: 1px solid #999; border-radius: 5px; padding: 10px; background-color: #f8d7da; color: #721c24;">
             <h2 style="margin-top: 0; color: #721c24;">Error Occurred:</h2>
@@ -218,7 +218,6 @@ while no_exception:
                         'plaintext': str(tb),
                         'html': exception_html
                     })
-                    no_exception = False
                     break
             # if email content was returned, send email, save storage
             if notification_content:

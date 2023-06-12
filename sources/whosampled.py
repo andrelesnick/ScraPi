@@ -16,6 +16,7 @@ class WhoSampledScraper(Scraper):
         self.name = 'WhoSampled'
         self.description = 'Receive updates when new samples are found for artists you follow.'
         self.frequency = 240
+        self.last_checked = 'Artist Name'
         self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=1) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
         # self.urgent_frequency = 5
         # self.urgent_days = 6
@@ -124,7 +125,7 @@ class WhoSampledScraper(Scraper):
                 current_page_url = next_button.find('a')['href']
 
             while has_next_button:
-                time.sleep(2)
+                time.sleep(1.5) # sleep so site isnt flooded
                 response = requests.get(base_url+current_page_url, headers=self.headers)
                 response.raise_for_status()
 
