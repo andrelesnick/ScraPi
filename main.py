@@ -153,7 +153,7 @@ def send_push(push_content, scraper):
     }
 
     data = {
-        'type': 'link',
+        'type': 'note',
         'title': push_content['title'],
         'body': push_content['body'],
         # 'url': push_content['url'],

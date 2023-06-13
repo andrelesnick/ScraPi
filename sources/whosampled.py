@@ -17,7 +17,7 @@ class WhoSampledScraper(Scraper):
         self.description = 'Receive updates when new samples are found for artists you follow.'
         self.frequency = 240
         self.last_checked = 'Artist Name'
-        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=1) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
+        self.check_again = datetime.datetime.now() + datetime.timedelta(minutes=0) # Making this 10 minutes to prevent unnecessary spam whenever I need to test
         # self.urgent_frequency = 5
         # self.urgent_days = 6
         self.data = {
