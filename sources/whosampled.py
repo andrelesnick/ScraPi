@@ -89,7 +89,7 @@ class WhoSampledScraper(Scraper):
                     if more_samples is not None:
                         more_samples_count = int(re.search(r'\d+', more_samples.text).group())
                         sample_count += more_samples_count
-                    if track['samples'] > 3: # if track has more than 3 samples, there's a separate page
+                    if sample_count > 3: # if track has more than 3 samples, there's a separate page
                         track_url += "samples/"
                     artist_track_info.append({
                         'title': track_title,

@@ -142,6 +142,7 @@ def send_email(email_content):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
         server.login(sender, password)
         server.send_message(msg, from_addr=sender, to_addrs=receiver)
+        print("Email sent successfully.")
 
 def send_push(push_content, scraper):
     # image = get_image(scraper)
@@ -191,9 +192,10 @@ while True:
     # loop through all scrapers
     for scraper in scrapers:
         if not scraper.enabled:
-            print(f"  Skipped {scraper.filename} at {datetime.now().strftime('%H:%M:%S')}")
+            if datetime.now() >= scraper.check_again:
+                print(f"  Skipped {scraper.filename} at {datetime.now().strftime('%H:%M:%S')}")
         # check if it's time to scrape
-        if datetime.now() >= scraper.check_again:
+        elif datetime.now() >= scraper.check_again:
             # scrape data
             try:
                 notification_content = scraper.scrape_data()
@@ -206,6 +208,7 @@ while True:
                 if tb:
                     print(tb, '\n\n')
                     scraper.enabled = False
+                    scraper.update_check()
                     exception_html = f"""
         <div style="border: 1px solid #999; border-radius: 5px; padding: 10px; background-color: #f8d7da; color: #721c24;">
             <h2 style="margin-top: 0; color: #721c24;">Error Occurred:</h2>
@@ -218,7 +221,7 @@ while True:
                         'plaintext': str(tb),
                         'html': exception_html
                     })
-                    break
+                    continue
             # if email content was returned, send email, save storage
             if notification_content:
                 print('Update for ' + scraper.filename + ' found! Sending notification...')

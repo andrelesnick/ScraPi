@@ -21,7 +21,7 @@ class TowerOfGodScraper(Scraper):
         self.get_storage()
 
     def scrape_data(self):
-        url = 'https://cosmicscans.com/manga/12423-tower-of-god/'
+        url = 'https://cosmicscans.com/manga/6969-tower-of-god/'
         response = requests.get(url)
         response.raise_for_status()
         soup = bs(response.text, 'lxml')
