@@ -21,7 +21,7 @@ class TowerOfGodScraper(Scraper):
         self.get_storage()
 
     def scrape_data(self):
-        url = 'https://cosmicscans.com/manga/6969-tower-of-god/'
+        url = 'https://cosmic-scans.com/manga/6969-tower-of-god/'
         response = requests.get(url)
         response.raise_for_status()
         soup = bs(response.text, 'lxml')
@@ -33,7 +33,7 @@ class TowerOfGodScraper(Scraper):
                 'type': 'push',
                 'title': self.name,
                 'body': f'Chapter {new_chapter} is now available at https://cosmicscans.com/tower-of-god-chapter-{new_chapter}/',
-                'url': f'https://cosmicscans.com/tower-of-god-chapter-{new_chapter}/',
+                'url': f'https://cosmic-scans.com/tower-of-god-chapter-{new_chapter}/',
             }
             return push
         return None

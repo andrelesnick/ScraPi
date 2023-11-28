@@ -34,6 +34,9 @@ class OnePieceScraper(Scraper):
         # print(elements)
         if elements is None or len(elements) == 0:
             print("Couldn't find any One Piece chapters.")
+            # write soup response to file
+            with open('one_piece.html', 'w', encoding='utf-8') as f:
+                f.write(response.text)
             return
 
         # Extract the chapter numbers from the elements' text and find the max
