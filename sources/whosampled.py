@@ -45,7 +45,8 @@ class WhoSampledScraper(Scraper):
             base_url = parts[0] + ".com"
             start_url = parts[1]
         
-
+            # add delay to prevent flooding
+            time.sleep(1)
             response = requests.get(url, headers=self.headers)
             response.raise_for_status()
 
@@ -125,7 +126,7 @@ class WhoSampledScraper(Scraper):
                 current_page_url = next_button.find('a')['href']
 
             while has_next_button:
-                time.sleep(1.5) # sleep so site isnt flooded
+                time.sleep(2) # sleep so site isnt flooded
                 response = requests.get(base_url+current_page_url, headers=self.headers)
                 response.raise_for_status()
 
