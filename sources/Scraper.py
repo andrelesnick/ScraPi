@@ -49,11 +49,13 @@ class Scraper:
         return {'User-Agent': random.choice(user_agents)}
     
     def get_storage(self):
+        # get json file, if it exists
         try:
             with open('sources/'+self.filename + '.json', 'r', encoding='utf-8') as f:
                 self.data = json.load(f)
         except FileNotFoundError:
             print("No storage file found for", self.filename +", creating one...")
+
         
 
     def save_storage(self):
