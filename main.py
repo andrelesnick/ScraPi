@@ -11,6 +11,7 @@ import importlib
 import smtplib, ssl
 from email.message import EmailMessage
 
+# Note: if you need to reset email password, go to https://myaccount.google.com/apppasswords
 with open('config.json', 'r') as f:
     config = json.load(f)
     sender = config['sender']
