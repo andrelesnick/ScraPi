@@ -1,0 +1,2091 @@
+{
+    "artists": [
+        "Caravan Palace",
+        "Tor",
+        "Nujabes",
+        "Jinsang",
+        "C418",
+        "Toby-\"Radiation\"-Fox",
+        "Tsutchie",
+        "DJ-Okawari",
+        "Mittens\u3055\u3093"
+    ],
+    "excluded_agents": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    ],
+    "artist_data": {
+        "Nujabes": [
+            {
+                "title": "Feather",
+                "url": "https://www.whosampled.com/Nujabes/Feather/",
+                "samples": 3
+            },
+            {
+                "title": "Aruarian Dance",
+                "url": "https://www.whosampled.com/Nujabes/Aruarian-Dance/",
+                "samples": 1
+            },
+            {
+                "title": "Luv(sic) Pt. 3",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Pt.-3/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Luv(sic) Pt. 2",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Pt.-2/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Shiki No Uta",
+                "url": "https://www.whosampled.com/Minmi/Shiki-No-Uta/",
+                "samples": 1
+            },
+            {
+                "title": "Luv(sic)",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Counting Stars",
+                "url": "https://www.whosampled.com/Nujabes/Counting-Stars/",
+                "samples": 2
+            },
+            {
+                "title": "Reflection Eternal",
+                "url": "https://www.whosampled.com/Nujabes/Reflection-Eternal/",
+                "samples": 2
+            },
+            {
+                "title": "Mystline",
+                "url": "https://www.whosampled.com/Nujabes/Mystline/",
+                "samples": 1
+            },
+            {
+                "title": "Lady Brown",
+                "url": "https://www.whosampled.com/Nujabes/Lady-Brown/",
+                "samples": 1
+            },
+            {
+                "title": "The Final View",
+                "url": "https://www.whosampled.com/Nujabes/The-Final-View/",
+                "samples": 3
+            },
+            {
+                "title": "Don't Even Try It",
+                "url": "https://www.whosampled.com/Nujabes/Don%27t-Even-Try-It/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Flowers",
+                "url": "https://www.whosampled.com/Nujabes/Flowers/",
+                "samples": 2
+            },
+            {
+                "title": "Beat Laments the World",
+                "url": "https://www.whosampled.com/Nujabes/Beat-Laments-the-World/",
+                "samples": 2
+            },
+            {
+                "title": "World's End Rhapsody",
+                "url": "https://www.whosampled.com/Nujabes/World%27s-End-Rhapsody/",
+                "samples": 2
+            },
+            {
+                "title": "Luv(sic) Pt. 6",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Pt.-6/",
+                "samples": 3
+            },
+            {
+                "title": "Steadfast",
+                "url": "https://www.whosampled.com/Nujabes/Steadfast/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Sea of Cloud",
+                "url": "https://www.whosampled.com/Nujabes/Sea-of-Cloud/",
+                "samples": 3
+            },
+            {
+                "title": "F.I.L.O.",
+                "url": "https://www.whosampled.com/Nujabes/F.I.L.O./",
+                "samples": 3
+            },
+            {
+                "title": "Imaginary Folklore",
+                "url": "https://www.whosampled.com/Nujabes/Imaginary-Folklore/",
+                "samples": 3
+            },
+            {
+                "title": "Think Different",
+                "url": "https://www.whosampled.com/Nujabes/Think-Different/",
+                "samples": 1
+            },
+            {
+                "title": "Latitude (Nujabes Remix)",
+                "url": "https://www.whosampled.com/Five-Deez/Latitude-(Nujabes-Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Eclipse",
+                "url": "https://www.whosampled.com/Nujabes/Eclipse/",
+                "samples": 2
+            },
+            {
+                "title": "Tsurugi No Mai",
+                "url": "https://www.whosampled.com/Nujabes/Tsurugi-No-Mai/",
+                "samples": 2
+            },
+            {
+                "title": "Kujaku",
+                "url": "https://www.whosampled.com/Nujabes/Kujaku/",
+                "samples": 3
+            },
+            {
+                "title": "Horn in the Middle",
+                "url": "https://www.whosampled.com/Nujabes/Horn-in-the-Middle/samples/",
+                "samples": 5
+            },
+            {
+                "title": "Who's Theme",
+                "url": "https://www.whosampled.com/Minmi/Who%27s-Theme/",
+                "samples": 1
+            },
+            {
+                "title": "Sky Is Falling",
+                "url": "https://www.whosampled.com/Nujabes/Sky-Is-Falling/",
+                "samples": 3
+            },
+            {
+                "title": "Another Reflection",
+                "url": "https://www.whosampled.com/Nujabes/Another-Reflection/",
+                "samples": 2
+            },
+            {
+                "title": "Hikari",
+                "url": "https://www.whosampled.com/Nujabes/Hikari/",
+                "samples": 1
+            },
+            {
+                "title": "After Hanabi (Listen to My Beat)",
+                "url": "https://www.whosampled.com/Nujabes/After-Hanabi-(Listen-to-My-Beat)/",
+                "samples": 2
+            },
+            {
+                "title": "1st Samurai",
+                "url": "https://www.whosampled.com/Nujabes/1st-Samurai/",
+                "samples": 2
+            },
+            {
+                "title": "A Day by Atmosphere Supreme",
+                "url": "https://www.whosampled.com/Nujabes/A-Day-by-Atmosphere-Supreme/",
+                "samples": 1
+            },
+            {
+                "title": "Spiritual State",
+                "url": "https://www.whosampled.com/Nujabes/Spiritual-State/",
+                "samples": 1
+            },
+            {
+                "title": "Battlecry",
+                "url": "https://www.whosampled.com/Nujabes/Battlecry/",
+                "samples": 1
+            },
+            {
+                "title": "Blessing It (Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Blessing-It-(Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Modal Soul",
+                "url": "https://www.whosampled.com/Nujabes/Modal-Soul/",
+                "samples": 1
+            },
+            {
+                "title": "Still Talking to You",
+                "url": "https://www.whosampled.com/Nujabes/Still-Talking-to-You/",
+                "samples": 2
+            },
+            {
+                "title": "City Lights",
+                "url": "https://www.whosampled.com/Nujabes/City-Lights/",
+                "samples": 2
+            },
+            {
+                "title": "Next View",
+                "url": "https://www.whosampled.com/Nujabes/Next-View/",
+                "samples": 2
+            },
+            {
+                "title": "Brothel Love",
+                "url": "https://www.whosampled.com/Nujabes/Brothel-Love/",
+                "samples": 1
+            },
+            {
+                "title": "Perfect Circle",
+                "url": "https://www.whosampled.com/Nujabes/Perfect-Circle/",
+                "samples": 1
+            },
+            {
+                "title": "Thank You",
+                "url": "https://www.whosampled.com/Nujabes/Thank-You/",
+                "samples": 2
+            },
+            {
+                "title": "The Space Between Two World",
+                "url": "https://www.whosampled.com/Nujabes/The-Space-Between-Two-World/",
+                "samples": 1
+            },
+            {
+                "title": "Far Fowls",
+                "url": "https://www.whosampled.com/Nujabes/Far-Fowls/",
+                "samples": 2
+            },
+            {
+                "title": "Ordinary Joe",
+                "url": "https://www.whosampled.com/Nujabes/Ordinary-Joe/",
+                "samples": 1
+            },
+            {
+                "title": "Luv(sic) Part 5",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Part-5/",
+                "samples": 3
+            },
+            {
+                "title": "Blessing It",
+                "url": "https://www.whosampled.com/Nujabes/Blessing-It/",
+                "samples": 1
+            },
+            {
+                "title": "If I Was Your Mic",
+                "url": "https://www.whosampled.com/Substantial/If-I-Was-Your-Mic/",
+                "samples": 1
+            },
+            {
+                "title": "Spiral",
+                "url": "https://www.whosampled.com/Nujabes/Spiral/",
+                "samples": 1
+            },
+            {
+                "title": "Psychological Counterpoint",
+                "url": "https://www.whosampled.com/Nujabes/Psychological-Counterpoint/samples/",
+                "samples": 5
+            },
+            {
+                "title": "Prayer",
+                "url": "https://www.whosampled.com/Nujabes/Prayer/",
+                "samples": 1
+            },
+            {
+                "title": "Light on the Land",
+                "url": "https://www.whosampled.com/Nujabes/Light-on-the-Land/",
+                "samples": 1
+            },
+            {
+                "title": "Peaceland",
+                "url": "https://www.whosampled.com/Nujabes/Peaceland/",
+                "samples": 2
+            },
+            {
+                "title": "Voice of Autumn",
+                "url": "https://www.whosampled.com/Nujabes/Voice-of-Autumn/",
+                "samples": 1
+            },
+            {
+                "title": "Plazma Avenue (Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Plazma-Avenue-(Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Moon Strut (Intro)",
+                "url": "https://www.whosampled.com/Nujabes/Moon-Strut-(Intro)/",
+                "samples": 2
+            },
+            {
+                "title": "Dead Season",
+                "url": "https://www.whosampled.com/Nujabes/Dead-Season/",
+                "samples": 2
+            },
+            {
+                "title": "The Sign",
+                "url": "https://www.whosampled.com/Nujabes/The-Sign/",
+                "samples": 1
+            },
+            {
+                "title": "Old Light (Voices From 93 Million Miles Away Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Old-Light-(Voices-From-93-Million-Miles-Away-Remix)/",
+                "samples": 3
+            },
+            {
+                "title": "Beyond",
+                "url": "https://www.whosampled.com/Nujabes/Beyond/",
+                "samples": 1
+            },
+            {
+                "title": "Yes",
+                "url": "https://www.whosampled.com/Nujabes/Yes/",
+                "samples": 1
+            },
+            {
+                "title": "Kodama (Interlude)",
+                "url": "https://www.whosampled.com/Nujabes/Kodama-(Interlude)/",
+                "samples": 1
+            },
+            {
+                "title": "Rainy Way Back Home",
+                "url": "https://www.whosampled.com/Nujabes/Rainy-Way-Back-Home/",
+                "samples": 2
+            },
+            {
+                "title": "Ribbon in the Sea",
+                "url": "https://www.whosampled.com/Uyama-Hiroto/Ribbon-in-the-Sea/",
+                "samples": 2
+            },
+            {
+                "title": "Fellows",
+                "url": "https://www.whosampled.com/Nujabes/Fellows/",
+                "samples": 2
+            },
+            {
+                "title": "Ain't No Mystery",
+                "url": "https://www.whosampled.com/Nujabes/Ain%27t-No-Mystery/",
+                "samples": 1
+            },
+            {
+                "title": "Fly by Night",
+                "url": "https://www.whosampled.com/Nujabes/Fly-by-Night/",
+                "samples": 1
+            },
+            {
+                "title": "Haiku (Interlude)",
+                "url": "https://www.whosampled.com/Nujabes/Haiku-(Interlude)/",
+                "samples": 1
+            },
+            {
+                "title": "Sky Is Tumbling",
+                "url": "https://www.whosampled.com/Nujabes/Sky-Is-Tumbling/",
+                "samples": 2
+            },
+            {
+                "title": "Silver Morning",
+                "url": "https://www.whosampled.com/Nujabes/Silver-Morning/",
+                "samples": 1
+            },
+            {
+                "title": "Sanctuary Ship",
+                "url": "https://www.whosampled.com/Nujabes/Sanctuary-Ship/",
+                "samples": 1
+            },
+            {
+                "title": "Strive",
+                "url": "https://www.whosampled.com/Apani-B.-Fly/Strive/",
+                "samples": 1
+            },
+            {
+                "title": "World Without Words",
+                "url": "https://www.whosampled.com/Nujabes/World-Without-Words/",
+                "samples": 2
+            },
+            {
+                "title": "Stratus",
+                "url": "https://www.whosampled.com/Uyama-Hiroto/Stratus/",
+                "samples": 1
+            },
+            {
+                "title": "Highs 2 Lows",
+                "url": "https://www.whosampled.com/Nujabes/Highs-2-Lows/",
+                "samples": 2
+            },
+            {
+                "title": "Music Is Mine",
+                "url": "https://www.whosampled.com/Nujabes/Music-Is-Mine/",
+                "samples": 1
+            },
+            {
+                "title": "Untitled",
+                "url": "https://www.whosampled.com/Nujabes/Untitled/",
+                "samples": 2
+            },
+            {
+                "title": "Luv(sic) Pt. 5 (Jumpster Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Pt.-5-(Jumpster-Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Ain't No Happy Endings",
+                "url": "https://www.whosampled.com/Substantial/Ain%27t-No-Happy-Endings/",
+                "samples": 1
+            },
+            {
+                "title": "Summer Gypsy",
+                "url": "https://www.whosampled.com/Nujabes/Summer-Gypsy/",
+                "samples": 2
+            },
+            {
+                "title": "Luv(sic) Part 4",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic)-Part-4/",
+                "samples": 2
+            },
+            {
+                "title": "Lyrical Terrorists",
+                "url": "https://www.whosampled.com/Nujabes/Lyrical-Terrorists/",
+                "samples": 1
+            },
+            {
+                "title": "Be People",
+                "url": "https://www.whosampled.com/Substantial/Be-People/",
+                "samples": 2
+            },
+            {
+                "title": "One Love (Dimention Ball Remix)",
+                "url": "https://www.whosampled.com/Nujabes/One-Love-(Dimention-Ball-Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Unstoppable",
+                "url": "https://www.whosampled.com/Funky-DL/Unstoppable/",
+                "samples": 2
+            },
+            {
+                "title": "Love Song",
+                "url": "https://www.whosampled.com/Substantial/Love-Song/",
+                "samples": 2
+            },
+            {
+                "title": "Slow Down",
+                "url": "https://www.whosampled.com/Funky-DL/Slow-Down/",
+                "samples": 1
+            },
+            {
+                "title": "Asteroid Love (Remix)",
+                "url": "https://www.whosampled.com/L-Universe-2/Asteroid-Love-(Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Decade (Interlude)",
+                "url": "https://www.whosampled.com/Nujabes/Decade-(Interlude)/",
+                "samples": 1
+            },
+            {
+                "title": "Lyrical Terrorists (Monorisick Remix)",
+                "url": "https://www.whosampled.com/Substantial/Lyrical-Terrorists-(Monorisick-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Sunrise (Intro)",
+                "url": "https://www.whosampled.com/Pase-Rock/Sunrise-(Intro)/",
+                "samples": 2
+            },
+            {
+                "title": "Winter Lane (Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Winter-Lane-(Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Luv(sic.) Modal Soul Remix",
+                "url": "https://www.whosampled.com/Nujabes/Luv(sic.)-Modal-Soul-Remix/",
+                "samples": 1
+            },
+            {
+                "title": "D.T.F.N. (Thomax Remix)",
+                "url": "https://www.whosampled.com/Nujabes/D.T.F.N.-(Thomax-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "D.T.F.N.",
+                "url": "https://www.whosampled.com/Nujabes/D.T.F.N./",
+                "samples": 1
+            },
+            {
+                "title": "Interlude",
+                "url": "https://www.whosampled.com/Pase-Rock/Interlude/",
+                "samples": 2
+            },
+            {
+                "title": "Asteroid Love",
+                "url": "https://www.whosampled.com/L-Universe-2/Asteroid-Love/",
+                "samples": 1
+            },
+            {
+                "title": "Thank You (Uyama Hiroto Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Thank-You-(Uyama-Hiroto-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "It's About Time",
+                "url": "https://www.whosampled.com/Pase-Rock/It%27s-About-Time/",
+                "samples": 1
+            },
+            {
+                "title": "Homeward Journey (Nujabes Edit)",
+                "url": "https://www.whosampled.com/Uyama-Hiroto/Homeward-Journey-(Nujabes-Edit)/",
+                "samples": 1
+            },
+            {
+                "title": "Peoples Don't Stray",
+                "url": "https://www.whosampled.com/Funky-DL/Peoples-Don%27t-Stray/",
+                "samples": 1
+            },
+            {
+                "title": "Let Go",
+                "url": "https://www.whosampled.com/Haruka-Nakamura/Let-Go/",
+                "samples": 1
+            },
+            {
+                "title": "If I Was Your MIC (Remix)",
+                "url": "https://www.whosampled.com/Substantial/If-I-Was-Your-MIC-(Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Lose My Religion",
+                "url": "https://www.whosampled.com/L-Universe-2/Lose-My-Religion/",
+                "samples": 2
+            },
+            {
+                "title": "Beat Leads the Way (Main Version)",
+                "url": "https://www.whosampled.com/Nujabes/Beat-Leads-the-Way-(Main-Version)/",
+                "samples": 3
+            },
+            {
+                "title": "Leave",
+                "url": "https://www.whosampled.com/Haruka-Nakamura/Leave/",
+                "samples": 1
+            },
+            {
+                "title": "If I Was Your Mic (DJ Kiyo Remix)",
+                "url": "https://www.whosampled.com/Substantial/If-I-Was-Your-Mic-(DJ-Kiyo-Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "CIM",
+                "url": "https://www.whosampled.com/Substantial/CIM/",
+                "samples": 1
+            },
+            {
+                "title": "Remembering Dave",
+                "url": "https://www.whosampled.com/Substantial/Remembering-Dave/",
+                "samples": 1
+            },
+            {
+                "title": "Messing With My Head",
+                "url": "https://www.whosampled.com/Pase-Rock/Messing-With-My-Head/",
+                "samples": 1
+            },
+            {
+                "title": "Bullshit as Usual",
+                "url": "https://www.whosampled.com/Pase-Rock/Bullshit-as-Usual/",
+                "samples": 1
+            },
+            {
+                "title": "Pase Burger",
+                "url": "https://www.whosampled.com/Pase-Rock/Pase-Burger/",
+                "samples": 1
+            },
+            {
+                "title": "Waiting for the Clouds",
+                "url": "https://www.whosampled.com/Nujabes/Waiting-for-the-Clouds/",
+                "samples": 1
+            },
+            {
+                "title": "Latitude",
+                "url": "https://www.whosampled.com/Nujabes/Latitude/",
+                "samples": 1
+            },
+            {
+                "title": "Ain't No Mystery (Monorisick Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Ain%27t-No-Mystery-(Monorisick-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "From the Ground Up (Nujabes Remix)",
+                "url": "https://www.whosampled.com/The-Associates-(Hip-Hop)/From-the-Ground-Up-(Nujabes-Remix)/",
+                "samples": 2
+            },
+            {
+                "title": "Grey Matter",
+                "url": "https://www.whosampled.com/Pase-Rock/Grey-Matter/",
+                "samples": 1
+            },
+            {
+                "title": "Post World",
+                "url": "https://www.whosampled.com/Pase-Rock/Post-World/",
+                "samples": 1
+            },
+            {
+                "title": "Substance",
+                "url": "https://www.whosampled.com/Substantial/Substance/",
+                "samples": 1
+            },
+            {
+                "title": "Interlude (Track 11)",
+                "url": "https://www.whosampled.com/Pase-Rock/Interlude-(Track-11)/",
+                "samples": 1
+            },
+            {
+                "title": "Blessing It (Dedicated to Y Remix)",
+                "url": "https://www.whosampled.com/Nujabes/Blessing-It-(Dedicated-to-Y-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Don't Even Try It (Monorisick Remix)",
+                "url": "https://www.whosampled.com/Funky-DL/Don%27t-Even-Try-It-(Monorisick-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "It's About Time (Moonstarr Remix)",
+                "url": "https://www.whosampled.com/Pase-Rock/It%27s-About-Time-(Moonstarr-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Fracturedreamadhectic",
+                "url": "https://www.whosampled.com/Pase-Rock/Fracturedreamadhectic/",
+                "samples": 1
+            },
+            {
+                "title": "Home Sweet Home (Dimention Ball Remix)",
+                "url": "https://www.whosampled.com/Substantial/Home-Sweet-Home-(Dimention-Ball-Remix)/",
+                "samples": 1
+            },
+            {
+                "title": "Laws",
+                "url": "https://www.whosampled.com/Apani-B.-Fly/Laws/",
+                "samples": 1
+            },
+            {
+                "title": "Love My Religion (Monorisick Remix)",
+                "url": "https://www.whosampled.com/L-Universe-2/Love-My-Religion-(Monorisick-Remix)/",
+                "samples": 1
+            }
+        ],
+        "Caravan Palace": [
+            {
+                "title": "Lone Digger",
+                "url": "https://www.whosampled.com/Caravan-Palace/Lone-Digger/",
+                "samples": 2
+            },
+            {
+                "title": "Rock It for Me",
+                "url": "https://www.whosampled.com/Caravan-Palace/Rock-It-for-Me/",
+                "samples": 3
+            },
+            {
+                "title": "Dramophone",
+                "url": "https://www.whosampled.com/Caravan-Palace/Dramophone/",
+                "samples": 2
+            },
+            {
+                "title": "Wonderland",
+                "url": "https://www.whosampled.com/Caravan-Palace/Wonderland/",
+                "samples": 1
+            },
+            {
+                "title": "Dramophone (Video Version)",
+                "url": "https://www.whosampled.com/Caravan-Palace/Dramophone-(Video-Version)/",
+                "samples": 1
+            },
+            {
+                "title": "Lay Down",
+                "url": "https://www.whosampled.com/Caravan-Palace/Lay-Down/",
+                "samples": 1
+            },
+            {
+                "title": "Clash",
+                "url": "https://www.whosampled.com/Caravan-Palace/Clash/",
+                "samples": 1
+            },
+            {
+                "title": "Human Leather Shoes for Crocodile Dandies",
+                "url": "https://www.whosampled.com/Caravan-Palace/Human-Leather-Shoes-for-Crocodile-Dandies/",
+                "samples": 1
+            },
+            {
+                "title": "Tattoos",
+                "url": "https://www.whosampled.com/Caravan-Palace/Tattoos/",
+                "samples": 1
+            },
+            {
+                "title": "Beatophone",
+                "url": "https://www.whosampled.com/Caravan-Palace/Beatophone/",
+                "samples": 1
+            },
+            {
+                "title": "Maniac",
+                "url": "https://www.whosampled.com/Caravan-Palace/Maniac/",
+                "samples": 2
+            },
+            {
+                "title": "Pirates",
+                "url": "https://www.whosampled.com/Caravan-Palace/Pirates/",
+                "samples": 1
+            },
+            {
+                "title": "Wonda",
+                "url": "https://www.whosampled.com/Caravan-Palace/Wonda/",
+                "samples": 1
+            },
+            {
+                "title": "Mirrors",
+                "url": "https://www.whosampled.com/Caravan-Palace/Mirrors/",
+                "samples": 1
+            },
+            {
+                "title": "Brotherswing",
+                "url": "https://www.whosampled.com/Caravan-Palace/Brotherswing/",
+                "samples": 1
+            },
+            {
+                "title": "The Dirty Side of the Street",
+                "url": "https://www.whosampled.com/Caravan-Palace/The-Dirty-Side-of-the-Street/",
+                "samples": 1
+            },
+            {
+                "title": "La Caravane",
+                "url": "https://www.whosampled.com/Caravan-Palace/La-Caravane/",
+                "samples": 1
+            },
+            {
+                "title": "Oooh",
+                "url": "https://www.whosampled.com/Caravan-Palace/Oooh/",
+                "samples": 1
+            }
+        ],
+        "Tor": [
+            {
+                "title": "Eleuthera",
+                "url": "https://www.whosampled.com/Tor/Eleuthera/",
+                "samples": 1
+            },
+            {
+                "title": "Aperture",
+                "url": "https://www.whosampled.com/Tor/Aperture/",
+                "samples": 2
+            }
+        ],
+        "Jinsang": [
+            {
+                "title": "Summer's Day [V2]",
+                "url": "https://www.whosampled.com/Jinsang/Summer%27s-Day-%5BV2%5D/",
+                "samples": 2
+            },
+            {
+                "title": "Fantasy",
+                "url": "https://www.whosampled.com/Khai-Dreams/Fantasy/",
+                "samples": 1
+            },
+            {
+                "title": "Affection",
+                "url": "https://www.whosampled.com/Jinsang/Affection/",
+                "samples": 2
+            },
+            {
+                "title": "Egyptian Pools",
+                "url": "https://www.whosampled.com/Jinsang/Egyptian-Pools/",
+                "samples": 1
+            },
+            {
+                "title": "Bliss",
+                "url": "https://www.whosampled.com/Jinsang/Bliss/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Feelings.",
+                "url": "https://www.whosampled.com/Jinsang/Feelings./",
+                "samples": 1
+            },
+            {
+                "title": "Wander.",
+                "url": "https://www.whosampled.com/Jinsang/Wander./",
+                "samples": 1
+            },
+            {
+                "title": "September Rain",
+                "url": "https://www.whosampled.com/Jinsang/September-Rain/",
+                "samples": 1
+            },
+            {
+                "title": "Elevated",
+                "url": "https://www.whosampled.com/Jinsang/Elevated/",
+                "samples": 2
+            },
+            {
+                "title": "Smile From U.",
+                "url": "https://www.whosampled.com/Jinsang/Smile-From-U./",
+                "samples": 1
+            },
+            {
+                "title": "Herewego",
+                "url": "https://www.whosampled.com/Jinsang/Herewego/",
+                "samples": 1
+            },
+            {
+                "title": "Betrayal",
+                "url": "https://www.whosampled.com/Jinsang/Betrayal/",
+                "samples": 1
+            },
+            {
+                "title": "Sunlight",
+                "url": "https://www.whosampled.com/Jinsang/Sunlight/",
+                "samples": 1
+            },
+            {
+                "title": "Reflection",
+                "url": "https://www.whosampled.com/Jinsang/Reflection/",
+                "samples": 1
+            },
+            {
+                "title": "Flow On",
+                "url": "https://www.whosampled.com/Jinsang/Flow-On/",
+                "samples": 2
+            },
+            {
+                "title": "Genesis",
+                "url": "https://www.whosampled.com/Jinsang/Genesis/",
+                "samples": 2
+            },
+            {
+                "title": "Morning",
+                "url": "https://www.whosampled.com/Jinsang/Morning/",
+                "samples": 1
+            },
+            {
+                "title": "with.you",
+                "url": "https://www.whosampled.com/Jinsang/with.you/",
+                "samples": 2
+            },
+            {
+                "title": "Past Memory",
+                "url": "https://www.whosampled.com/Jinsang/Past-Memory/",
+                "samples": 1
+            },
+            {
+                "title": "Waiting",
+                "url": "https://www.whosampled.com/Jinsang/Waiting/",
+                "samples": 1
+            },
+            {
+                "title": "Blossom",
+                "url": "https://www.whosampled.com/Jinsang/Blossom/",
+                "samples": 1
+            },
+            {
+                "title": "Slumpin",
+                "url": "https://www.whosampled.com/Jinsang/Slumpin/",
+                "samples": 2
+            },
+            {
+                "title": "let.go [One 4 Jun]",
+                "url": "https://www.whosampled.com/Jinsang/let.go-%5BOne-4-Jun%5D/",
+                "samples": 1
+            },
+            {
+                "title": "Eyes",
+                "url": "https://www.whosampled.com/Jinsang/Eyes/",
+                "samples": 2
+            },
+            {
+                "title": "Pine Leaves",
+                "url": "https://www.whosampled.com/Jinsang/Pine-Leaves/",
+                "samples": 1
+            },
+            {
+                "title": "Reminisce",
+                "url": "https://www.whosampled.com/Jinsang/Reminisce/",
+                "samples": 1
+            },
+            {
+                "title": "In Space, Alone",
+                "url": "https://www.whosampled.com/Jinsang/In-Space,-Alone/",
+                "samples": 1
+            },
+            {
+                "title": "Always",
+                "url": "https://www.whosampled.com/Jinsang/Always/",
+                "samples": 3
+            },
+            {
+                "title": "Alone, Together",
+                "url": "https://www.whosampled.com/Jinsang/Alone,-Together/",
+                "samples": 1
+            },
+            {
+                "title": "Dusk.",
+                "url": "https://www.whosampled.com/Jinsang/Dusk./",
+                "samples": 1
+            },
+            {
+                "title": "Struggles",
+                "url": "https://www.whosampled.com/Jinsang/Struggles/",
+                "samples": 1
+            },
+            {
+                "title": "Drifting",
+                "url": "https://www.whosampled.com/Jinsang/Drifting/",
+                "samples": 1
+            },
+            {
+                "title": "A Better Tomorrow",
+                "url": "https://www.whosampled.com/Jinsang/A-Better-Tomorrow/",
+                "samples": 1
+            },
+            {
+                "title": "All That's Left",
+                "url": "https://www.whosampled.com/Jinsang/All-That%27s-Left/",
+                "samples": 1
+            },
+            {
+                "title": "Riding Bikes",
+                "url": "https://www.whosampled.com/Jinsang/Riding-Bikes/",
+                "samples": 2
+            },
+            {
+                "title": "Kona Park",
+                "url": "https://www.whosampled.com/Jinsang/Kona-Park/",
+                "samples": 2
+            },
+            {
+                "title": "Tunnel Vision",
+                "url": "https://www.whosampled.com/Jinsang/Tunnel-Vision/",
+                "samples": 1
+            },
+            {
+                "title": "Times Movin' Fast",
+                "url": "https://www.whosampled.com/Jinsang/Times-Movin%27-Fast/",
+                "samples": 1
+            },
+            {
+                "title": "Midnight",
+                "url": "https://www.whosampled.com/Jinsang/Midnight/",
+                "samples": 1
+            },
+            {
+                "title": "Grotto",
+                "url": "https://www.whosampled.com/Jinsang/Grotto/",
+                "samples": 1
+            },
+            {
+                "title": "Bright.",
+                "url": "https://www.whosampled.com/Jinsang/Bright./",
+                "samples": 1
+            },
+            {
+                "title": "Abandoned",
+                "url": "https://www.whosampled.com/Jinsang/Abandoned/",
+                "samples": 1
+            },
+            {
+                "title": "Winter Bokeh",
+                "url": "https://www.whosampled.com/Idealism/Winter-Bokeh/",
+                "samples": 1
+            },
+            {
+                "title": "Stratosphere",
+                "url": "https://www.whosampled.com/Jinsang/Stratosphere/",
+                "samples": 2
+            },
+            {
+                "title": "Cold Wind",
+                "url": "https://www.whosampled.com/Jinsang/Cold-Wind/",
+                "samples": 1
+            },
+            {
+                "title": "Growth",
+                "url": "https://www.whosampled.com/Jinsang/Growth/",
+                "samples": 1
+            },
+            {
+                "title": "Trees",
+                "url": "https://www.whosampled.com/Jinsang/Trees/",
+                "samples": 1
+            },
+            {
+                "title": "Somehow",
+                "url": "https://www.whosampled.com/Jinsang/Somehow/",
+                "samples": 1
+            },
+            {
+                "title": "Undersea.",
+                "url": "https://www.whosampled.com/Jinsang/Undersea./",
+                "samples": 1
+            },
+            {
+                "title": "Yoshino",
+                "url": "https://www.whosampled.com/Jinsang/Yoshino/",
+                "samples": 1
+            },
+            {
+                "title": "Her Smile",
+                "url": "https://www.whosampled.com/Jinsang/Her-Smile/",
+                "samples": 1
+            },
+            {
+                "title": "Who Knows?",
+                "url": "https://www.whosampled.com/Jinsang/Who-Knows%3F/",
+                "samples": 1
+            },
+            {
+                "title": "Green",
+                "url": "https://www.whosampled.com/Jinsang/Green/",
+                "samples": 1
+            },
+            {
+                "title": "High",
+                "url": "https://www.whosampled.com/SwuM./High/",
+                "samples": 1
+            },
+            {
+                "title": "Return",
+                "url": "https://www.whosampled.com/Jinsang/Return/",
+                "samples": 1
+            },
+            {
+                "title": "Sandcastle",
+                "url": "https://www.whosampled.com/MUJO%E6%83%85/Sandcastle/",
+                "samples": 1
+            },
+            {
+                "title": "First Luv",
+                "url": "https://www.whosampled.com/Jinsang/First-Luv/",
+                "samples": 1
+            },
+            {
+                "title": "In the Clouds",
+                "url": "https://www.whosampled.com/Jinsang/In-the-Clouds/",
+                "samples": 1
+            },
+            {
+                "title": "Falling 4 U",
+                "url": "https://www.whosampled.com/Jinsang/Falling-4-U/",
+                "samples": 2
+            },
+            {
+                "title": "Journey",
+                "url": "https://www.whosampled.com/Jinsang/Journey/",
+                "samples": 1
+            },
+            {
+                "title": "Alone",
+                "url": "https://www.whosampled.com/Jinsang/Alone/",
+                "samples": 1
+            },
+            {
+                "title": "Pure",
+                "url": "https://www.whosampled.com/Jinsang/Pure/",
+                "samples": 1
+            },
+            {
+                "title": "Providah",
+                "url": "https://www.whosampled.com/Jinsang/Providah/",
+                "samples": 2
+            },
+            {
+                "title": "Regret",
+                "url": "https://www.whosampled.com/Jinsang/Regret/",
+                "samples": 1
+            },
+            {
+                "title": "Some Other Time",
+                "url": "https://www.whosampled.com/Jinsang/Some-Other-Time/",
+                "samples": 1
+            },
+            {
+                "title": "Moonlight [Part 2]",
+                "url": "https://www.whosampled.com/Jinsang/Moonlight-%5BPart-2%5D/",
+                "samples": 1
+            },
+            {
+                "title": "Aurora",
+                "url": "https://www.whosampled.com/Jinsang/Aurora/",
+                "samples": 1
+            },
+            {
+                "title": "Distance",
+                "url": "https://www.whosampled.com/Jinsang/Distance/",
+                "samples": 1
+            },
+            {
+                "title": "A Thousand Times",
+                "url": "https://www.whosampled.com/Jinsang/A-Thousand-Times/",
+                "samples": 1
+            },
+            {
+                "title": "Hawaii.",
+                "url": "https://www.whosampled.com/Jinsang/Hawaii./",
+                "samples": 1
+            },
+            {
+                "title": "Pleased to Meet You",
+                "url": "https://www.whosampled.com/Jinsang/Pleased-to-Meet-You/",
+                "samples": 1
+            },
+            {
+                "title": "Deeper",
+                "url": "https://www.whosampled.com/Jinsang/Deeper/",
+                "samples": 1
+            },
+            {
+                "title": "Makeyoufeel [Flip]",
+                "url": "https://www.whosampled.com/Jinsang/Makeyoufeel-%5BFlip%5D/",
+                "samples": 1
+            },
+            {
+                "title": "Lilac",
+                "url": "https://www.whosampled.com/Jinsang/Lilac/",
+                "samples": 1
+            },
+            {
+                "title": "Jupiter Jazz",
+                "url": "https://www.whosampled.com/Jinsang/Jupiter-Jazz/",
+                "samples": 1
+            },
+            {
+                "title": "Night Hike",
+                "url": "https://www.whosampled.com/Jinsang/Night-Hike/",
+                "samples": 1
+            },
+            {
+                "title": "1997",
+                "url": "https://www.whosampled.com/Jinsang/1997/",
+                "samples": 1
+            },
+            {
+                "title": "Dance in the Night",
+                "url": "https://www.whosampled.com/Jinsang/Dance-in-the-Night/",
+                "samples": 1
+            },
+            {
+                "title": "Cold Seas",
+                "url": "https://www.whosampled.com/Jinsang/Cold-Seas/",
+                "samples": 1
+            },
+            {
+                "title": "Umbrella",
+                "url": "https://www.whosampled.com/Jinsang/Umbrella/",
+                "samples": 1
+            },
+            {
+                "title": "Dreems",
+                "url": "https://www.whosampled.com/SwuM./Dreems/",
+                "samples": 1
+            },
+            {
+                "title": "Lull",
+                "url": "https://www.whosampled.com/Jinsang/Lull/",
+                "samples": 1
+            },
+            {
+                "title": "Thoughts",
+                "url": "https://www.whosampled.com/Jinsang/Thoughts/",
+                "samples": 1
+            },
+            {
+                "title": "Untold",
+                "url": "https://www.whosampled.com/Jinsang/Untold/",
+                "samples": 1
+            },
+            {
+                "title": "Here We Go Again",
+                "url": "https://www.whosampled.com/Jinsang/Here-We-Go-Again/",
+                "samples": 1
+            },
+            {
+                "title": "Sleep",
+                "url": "https://www.whosampled.com/Jinsang/Sleep/",
+                "samples": 1
+            },
+            {
+                "title": "Homecoming // Memories",
+                "url": "https://www.whosampled.com/Jinsang/Homecoming-Memories/",
+                "samples": 2
+            },
+            {
+                "title": "Lemongrass",
+                "url": "https://www.whosampled.com/Jinsang/Lemongrass/",
+                "samples": 1
+            },
+            {
+                "title": "She Was Gone",
+                "url": "https://www.whosampled.com/High-Eyes/She-Was-Gone/",
+                "samples": 2
+            },
+            {
+                "title": "Maybe",
+                "url": "https://www.whosampled.com/Jinsang/Maybe/",
+                "samples": 1
+            },
+            {
+                "title": "Dime",
+                "url": "https://www.whosampled.com/Jinsang/Dime/",
+                "samples": 1
+            },
+            {
+                "title": "Ease In",
+                "url": "https://www.whosampled.com/Jinsang/Ease-In/",
+                "samples": 1
+            },
+            {
+                "title": "Introspect",
+                "url": "https://www.whosampled.com/Jinsang/Introspect/",
+                "samples": 1
+            },
+            {
+                "title": "1Am",
+                "url": "https://www.whosampled.com/Jinsang/1Am/",
+                "samples": 1
+            },
+            {
+                "title": "Crush",
+                "url": "https://www.whosampled.com/Jinsang/Crush/",
+                "samples": 1
+            },
+            {
+                "title": "With Purpose",
+                "url": "https://www.whosampled.com/Jinsang/With-Purpose/",
+                "samples": 2
+            },
+            {
+                "title": "Sprung",
+                "url": "https://www.whosampled.com/Jinsang/Sprung/",
+                "samples": 1
+            },
+            {
+                "title": "Back Again",
+                "url": "https://www.whosampled.com/Jinsang/Back-Again/",
+                "samples": 1
+            },
+            {
+                "title": "Sunsets.",
+                "url": "https://www.whosampled.com/Jinsang/Sunsets./",
+                "samples": 1
+            },
+            {
+                "title": "Tsuki",
+                "url": "https://www.whosampled.com/SwuM./Tsuki/",
+                "samples": 1
+            },
+            {
+                "title": "Sunrise",
+                "url": "https://www.whosampled.com/Jinsang/Sunrise/",
+                "samples": 1
+            },
+            {
+                "title": "Ferrari",
+                "url": "https://www.whosampled.com/Jinsang/Ferrari/",
+                "samples": 1
+            },
+            {
+                "title": "Revelation",
+                "url": "https://www.whosampled.com/Jinsang/Revelation/",
+                "samples": 1
+            },
+            {
+                "title": "Light",
+                "url": "https://www.whosampled.com/Jinsang/Light/",
+                "samples": 1
+            },
+            {
+                "title": "Learning",
+                "url": "https://www.whosampled.com/Jinsang/Learning/",
+                "samples": 1
+            },
+            {
+                "title": "Voyage",
+                "url": "https://www.whosampled.com/SwuM./Voyage/",
+                "samples": 1
+            },
+            {
+                "title": "Misunderstood",
+                "url": "https://www.whosampled.com/Jinsang/Misunderstood/",
+                "samples": 1
+            },
+            {
+                "title": "Evening.",
+                "url": "https://www.whosampled.com/Jinsang/Evening./",
+                "samples": 1
+            },
+            {
+                "title": "Intro",
+                "url": "https://www.whosampled.com/Jinsang/Intro/",
+                "samples": 1
+            },
+            {
+                "title": "To Me She Was Mine",
+                "url": "https://www.whosampled.com/Jinsang/To-Me-She-Was-Mine/",
+                "samples": 1
+            },
+            {
+                "title": "Boo",
+                "url": "https://www.whosampled.com/Jinsang/Boo/",
+                "samples": 1
+            },
+            {
+                "title": "She\u2019s Got Soul",
+                "url": "https://www.whosampled.com/SwuM./She%E2%80%99s-Got-Soul/",
+                "samples": 1
+            },
+            {
+                "title": "\uc7a5\ubbf8",
+                "url": "https://www.whosampled.com/%ED%99%88%EB%B3%B4%EC%9D%B4-(Homeboy)/%EC%9E%A5%EB%AF%B8/",
+                "samples": 1
+            },
+            {
+                "title": "Yearn",
+                "url": "https://www.whosampled.com/Jinsang/Yearn/",
+                "samples": 1
+            },
+            {
+                "title": "Since Then",
+                "url": "https://www.whosampled.com/Jinsang/Since-Then/",
+                "samples": 1
+            },
+            {
+                "title": "Blade",
+                "url": "https://www.whosampled.com/Jinsang/Blade/",
+                "samples": 1
+            },
+            {
+                "title": "Luv Sic_flip",
+                "url": "https://www.whosampled.com/Jinsang/Luv-Sic-flip/",
+                "samples": 1
+            },
+            {
+                "title": "K..",
+                "url": "https://www.whosampled.com/Jinsang/K../",
+                "samples": 2
+            },
+            {
+                "title": "Portland",
+                "url": "https://www.whosampled.com/Jinsang/Portland/",
+                "samples": 1
+            },
+            {
+                "title": "Been There..",
+                "url": "https://www.whosampled.com/Jinsang/Been-There../",
+                "samples": 1
+            },
+            {
+                "title": "Girl at the Bus Stop",
+                "url": "https://www.whosampled.com/Jinsang/Girl-at-the-Bus-Stop/",
+                "samples": 1
+            },
+            {
+                "title": "Going to the Beach",
+                "url": "https://www.whosampled.com/SwuM./Going-to-the-Beach/",
+                "samples": 1
+            },
+            {
+                "title": "This City",
+                "url": "https://www.whosampled.com/Jinsang/This-City/",
+                "samples": 1
+            },
+            {
+                "title": "Haven",
+                "url": "https://www.whosampled.com/Jinsang/Haven/",
+                "samples": 1
+            },
+            {
+                "title": "Mirage",
+                "url": "https://www.whosampled.com/Jinsang/Mirage/",
+                "samples": 1
+            },
+            {
+                "title": "Remember",
+                "url": "https://www.whosampled.com/Jinsang/Remember/",
+                "samples": 1
+            },
+            {
+                "title": "Egyptian Pools",
+                "url": "https://www.whosampled.com/JUICEB%E2%98%AEX/Egyptian-Pools/",
+                "samples": 1
+            },
+            {
+                "title": "Lifted",
+                "url": "https://www.whosampled.com/Two-Sleepy/Lifted/",
+                "samples": 1
+            },
+            {
+                "title": "\u591c\u660e\u3051",
+                "url": "https://www.whosampled.com/Jinsang/%E5%A4%9C%E6%98%8E%E3%81%91/",
+                "samples": 1
+            },
+            {
+                "title": "Leaving",
+                "url": "https://www.whosampled.com/Jinsang/Leaving/",
+                "samples": 1
+            },
+            {
+                "title": "Sacrifices",
+                "url": "https://www.whosampled.com/Jinsang/Sacrifices/",
+                "samples": 2
+            },
+            {
+                "title": "Restless",
+                "url": "https://www.whosampled.com/Jinsang/Restless/",
+                "samples": 1
+            },
+            {
+                "title": "Empty",
+                "url": "https://www.whosampled.com/Jinsang/Empty/",
+                "samples": 2
+            },
+            {
+                "title": "Oasis",
+                "url": "https://www.whosampled.com/SwuM./Oasis/",
+                "samples": 1
+            },
+            {
+                "title": "Illuminate",
+                "url": "https://www.whosampled.com/Jinsang/Illuminate/",
+                "samples": 1
+            },
+            {
+                "title": "Uplift",
+                "url": "https://www.whosampled.com/Jinsang/Uplift/",
+                "samples": 1
+            },
+            {
+                "title": "Moonlight",
+                "url": "https://www.whosampled.com/Jinsang/Moonlight/",
+                "samples": 1
+            },
+            {
+                "title": "Hydrate",
+                "url": "https://www.whosampled.com/Jinsang/Hydrate/",
+                "samples": 1
+            },
+            {
+                "title": "Clouds",
+                "url": "https://www.whosampled.com/Jinsang/Clouds/",
+                "samples": 1
+            },
+            {
+                "title": "Here to Stay",
+                "url": "https://www.whosampled.com/JUICEB%E2%98%AEX/Here-to-Stay/",
+                "samples": 1
+            },
+            {
+                "title": "Ipa",
+                "url": "https://www.whosampled.com/Jinsang/Ipa/",
+                "samples": 1
+            },
+            {
+                "title": "Cruisin",
+                "url": "https://www.whosampled.com/Jinsang/Cruisin/",
+                "samples": 2
+            },
+            {
+                "title": "Plead",
+                "url": "https://www.whosampled.com/Jinsang/Plead/",
+                "samples": 1
+            },
+            {
+                "title": "Zen.",
+                "url": "https://www.whosampled.com/Jinsang/Zen./",
+                "samples": 1
+            },
+            {
+                "title": "Koi",
+                "url": "https://www.whosampled.com/Tysu/Koi/",
+                "samples": 1
+            },
+            {
+                "title": "& Me",
+                "url": "https://www.whosampled.com/Jinsang/%26-Me/",
+                "samples": 1
+            },
+            {
+                "title": "Kodoma",
+                "url": "https://www.whosampled.com/Jinsang/Kodoma/",
+                "samples": 1
+            },
+            {
+                "title": "Breezin'",
+                "url": "https://www.whosampled.com/Jinsang/Breezin%27/",
+                "samples": 1
+            },
+            {
+                "title": "Blue",
+                "url": "https://www.whosampled.com/Jinsang/Blue/",
+                "samples": 1
+            },
+            {
+                "title": "Gone",
+                "url": "https://www.whosampled.com/Jinsang/Gone/",
+                "samples": 1
+            },
+            {
+                "title": "Break",
+                "url": "https://www.whosampled.com/Jinsang/Break/",
+                "samples": 1
+            },
+            {
+                "title": "Wonder",
+                "url": "https://www.whosampled.com/Tomcbumpz/Wonder/",
+                "samples": 1
+            },
+            {
+                "title": "You",
+                "url": "https://www.whosampled.com/Jinsang/You/",
+                "samples": 1
+            },
+            {
+                "title": "60 Degrees",
+                "url": "https://www.whosampled.com/Jinsang/60-Degrees/",
+                "samples": 1
+            },
+            {
+                "title": "Gettin' Paper [Flip]",
+                "url": "https://www.whosampled.com/Jinsang/Gettin%27-Paper-%5BFlip%5D/",
+                "samples": 1
+            },
+            {
+                "title": "Glow (Zion T. Edit)",
+                "url": "https://www.whosampled.com/Jinsang/Glow-(Zion-T.-Edit)/",
+                "samples": 1
+            },
+            {
+                "title": "Last Autumn",
+                "url": "https://www.whosampled.com/Jinsang/Last-Autumn/",
+                "samples": 1
+            },
+            {
+                "title": "Roll Thru",
+                "url": "https://www.whosampled.com/Jinsang/Roll-Thru/",
+                "samples": 1
+            },
+            {
+                "title": "Hiccup",
+                "url": "https://www.whosampled.com/JUICEB%E2%98%AEX/Hiccup/",
+                "samples": 1
+            },
+            {
+                "title": "Still Thinkin'",
+                "url": "https://www.whosampled.com/Jinsang/Still-Thinkin%27/",
+                "samples": 1
+            },
+            {
+                "title": "Early",
+                "url": "https://www.whosampled.com/Jinsang/Early/",
+                "samples": 1
+            },
+            {
+                "title": "Absence",
+                "url": "https://www.whosampled.com/Jinsang/Absence/",
+                "samples": 1
+            },
+            {
+                "title": "The Way Home",
+                "url": "https://www.whosampled.com/Jinsang/The-Way-Home/",
+                "samples": 1
+            },
+            {
+                "title": "Sparks",
+                "url": "https://www.whosampled.com/Jinsang/Sparks/",
+                "samples": 1
+            },
+            {
+                "title": "Nothing to Me",
+                "url": "https://www.whosampled.com/Jinsang/Nothing-to-Me/",
+                "samples": 1
+            },
+            {
+                "title": "Like Nothing's Wrong",
+                "url": "https://www.whosampled.com/JUICEB%E2%98%AEX/Like-Nothing%27s-Wrong/",
+                "samples": 1
+            },
+            {
+                "title": "Hawaii",
+                "url": "https://www.whosampled.com/JUICEB%E2%98%AEX/Hawaii/",
+                "samples": 1
+            }
+        ],
+        "C418": [
+            {
+                "title": "Chirp",
+                "url": "https://www.whosampled.com/C418/Chirp/",
+                "samples": 1
+            },
+            {
+                "title": "Alpha",
+                "url": "https://www.whosampled.com/C418/Alpha/",
+                "samples": 1
+            },
+            {
+                "title": "If You Don't Know What to Do Just Steal the Amen Break",
+                "url": "https://www.whosampled.com/C418/If-You-Don%27t-Know-What-to-Do-Just-Steal-the-Amen-Break/",
+                "samples": 1
+            },
+            {
+                "title": "Droopy Likes Your Face",
+                "url": "https://www.whosampled.com/C418/Droopy-Likes-Your-Face/",
+                "samples": 2
+            },
+            {
+                "title": "Stal",
+                "url": "https://www.whosampled.com/C418/Stal/",
+                "samples": 1
+            },
+            {
+                "title": "The End",
+                "url": "https://www.whosampled.com/C418/The-End/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Moog City 2",
+                "url": "https://www.whosampled.com/C418/Moog-City-2/",
+                "samples": 1
+            },
+            {
+                "title": "Mellohi",
+                "url": "https://www.whosampled.com/C418/Mellohi/",
+                "samples": 1
+            },
+            {
+                "title": "Ward",
+                "url": "https://www.whosampled.com/C418/Ward/",
+                "samples": 1
+            },
+            {
+                "title": "Long Songs Are for People Who Don't Have Time to Make Them Short (Part 1)",
+                "url": "https://www.whosampled.com/C418/Long-Songs-Are-for-People-Who-Don%27t-Have-Time-to-Make-Them-Short-(Part-1)/",
+                "samples": 2
+            },
+            {
+                "title": "Minecraft Is Acid",
+                "url": "https://www.whosampled.com/C418/Minecraft-Is-Acid/",
+                "samples": 1
+            },
+            {
+                "title": "I Jate My Hob",
+                "url": "https://www.whosampled.com/C418/I-Jate-My-Hob/",
+                "samples": 1
+            },
+            {
+                "title": "I Glove Thy Flob",
+                "url": "https://www.whosampled.com/C418/I-Glove-Thy-Flob/",
+                "samples": 2
+            },
+            {
+                "title": "Biome Party",
+                "url": "https://www.whosampled.com/C418/Biome-Party/",
+                "samples": 1
+            },
+            {
+                "title": "The Long-Winded and Painful Death of Sweeney S Greenville",
+                "url": "https://www.whosampled.com/C418/The-Long-Winded-and-Painful-Death-of-Sweeney-S-Greenville/",
+                "samples": 3
+            },
+            {
+                "title": "Crowdpleaser",
+                "url": "https://www.whosampled.com/C418/Crowdpleaser/",
+                "samples": 2
+            },
+            {
+                "title": "Droopy Remembers",
+                "url": "https://www.whosampled.com/C418/Droopy-Remembers/",
+                "samples": 2
+            },
+            {
+                "title": "Meatcraft (Remix)",
+                "url": "https://www.whosampled.com/Danny-Baranowsky/Meatcraft-(Remix)/",
+                "samples": 3
+            },
+            {
+                "title": "The First Unfinished Song for the Minecraft Documentary",
+                "url": "https://www.whosampled.com/C418/The-First-Unfinished-Song-for-the-Minecraft-Documentary/",
+                "samples": 1
+            },
+            {
+                "title": "The President Is Dead",
+                "url": "https://www.whosampled.com/C418/The-President-Is-Dead/",
+                "samples": 1
+            },
+            {
+                "title": "A Game Select Thing",
+                "url": "https://www.whosampled.com/C418/A-Game-Select-Thing/",
+                "samples": 2
+            },
+            {
+                "title": "Hop",
+                "url": "https://www.whosampled.com/C418/Hop/",
+                "samples": 1
+            },
+            {
+                "title": "Long Songs Are for People Who Don't Have Time to Make Them Short",
+                "url": "https://www.whosampled.com/C418/Long-Songs-Are-for-People-Who-Don%27t-Have-Time-to-Make-Them-Short/",
+                "samples": 1
+            },
+            {
+                "title": "Sometimes I Make Video Game Music",
+                "url": "https://www.whosampled.com/C418/Sometimes-I-Make-Video-Game-Music/",
+                "samples": 2
+            },
+            {
+                "title": "Jimtention",
+                "url": "https://www.whosampled.com/C418/Jimtention/",
+                "samples": 1
+            },
+            {
+                "title": "BGC418",
+                "url": "https://www.whosampled.com/C418/BGC418/",
+                "samples": 1
+            },
+            {
+                "title": "Pizza",
+                "url": "https://www.whosampled.com/C418/Pizza/",
+                "samples": 1
+            },
+            {
+                "title": "Enforcer Brittanica",
+                "url": "https://www.whosampled.com/C418/Enforcer-Brittanica/",
+                "samples": 3
+            },
+            {
+                "title": "What It Would Have Sounded Like if I Were to DJ 5 Years Ago",
+                "url": "https://www.whosampled.com/C418/What-It-Would-Have-Sounded-Like-if-I-Were-to-DJ-5-Years-Ago/",
+                "samples": 1
+            },
+            {
+                "title": "Divide by Four Add Seven",
+                "url": "https://www.whosampled.com/C418/Divide-by-Four-Add-Seven/",
+                "samples": 1
+            },
+            {
+                "title": "Dune Storm",
+                "url": "https://www.whosampled.com/C418/Dune-Storm/",
+                "samples": 1
+            },
+            {
+                "title": "Edward",
+                "url": "https://www.whosampled.com/C418/Edward/",
+                "samples": 1
+            },
+            {
+                "title": "Sirtet",
+                "url": "https://www.whosampled.com/C418/Sirtet/",
+                "samples": 1
+            },
+            {
+                "title": "Acid",
+                "url": "https://www.whosampled.com/C418/Acid/",
+                "samples": 1
+            }
+        ],
+        "Toby \"Radiation\" Fox": [
+            {
+                "title": "Your Best Nightmare",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Your-Best-Nightmare/",
+                "samples": 1
+            },
+            {
+                "title": "MeGaLoVania",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/MeGaLoVania/",
+                "samples": 1
+            },
+            {
+                "title": "Ghost Fight",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Ghost-Fight/",
+                "samples": 2
+            },
+            {
+                "title": "Amalgam",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Amalgam/",
+                "samples": 1
+            },
+            {
+                "title": "Descend",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Descend/samples/",
+                "samples": 18
+            },
+            {
+                "title": "Finale",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Finale/",
+                "samples": 1
+            },
+            {
+                "title": "Battle! (Battle Tower)",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Battle!-(Battle-Tower)/",
+                "samples": 1
+            },
+            {
+                "title": "When I Get Mad I Dance Like This",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/When-I-Get-Mad-I-Dance-Like-This/",
+                "samples": 1
+            },
+            {
+                "title": "BIG SHOT",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/BIG-SHOT/",
+                "samples": 2
+            },
+            {
+                "title": "The La2t Frontiier",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/The-La2t-Frontiier/",
+                "samples": 2
+            },
+            {
+                "title": "Nic Cage Song",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Nic-Cage-Song/samples/",
+                "samples": 9
+            },
+            {
+                "title": "The Blind Prophet",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/The-Blind-Prophet/",
+                "samples": 2
+            },
+            {
+                "title": "ANOTHER HIM",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/ANOTHER-HIM/",
+                "samples": 1
+            },
+            {
+                "title": "Death by Glamour",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Death-by-Glamour/",
+                "samples": 1
+            },
+            {
+                "title": "FIDUSPAWN, GO!",
+                "url": "https://www.whosampled.com/David-Ko/FIDUSPAWN,-GO!/samples/",
+                "samples": 4
+            },
+            {
+                "title": "Megalo Strike Back",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Megalo-Strike-Back/",
+                "samples": 1
+            },
+            {
+                "title": "Undertale",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Undertale/",
+                "samples": 1
+            },
+            {
+                "title": "Black",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Black/",
+                "samples": 1
+            },
+            {
+                "title": "NOW'S YOUR CHANCE TO BE A",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/NOW%27S-YOUR-CHANCE-TO-BE-A/",
+                "samples": 2
+            },
+            {
+                "title": "Song That Might Play When You Fight Sans",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Song-That-Might-Play-When-You-Fight-Sans/",
+                "samples": 1
+            },
+            {
+                "title": "Fallen Down (Reprise)",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Fallen-Down-(Reprise)/",
+                "samples": 1
+            },
+            {
+                "title": "Can You Really Call This a Hotel, I Didn't Receive a Mint on My Pillow or Anythi",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Can-You-Really-Call-This-a-Hotel,-I-Didn%27t-Receive-a-Mint-on-My-Pillow-or-Anythi/",
+                "samples": 1
+            },
+            {
+                "title": "Blackest Heart (With Honks)",
+                "url": "https://www.whosampled.com/Mark-Hadley/Blackest-Heart-(With-Honks)/",
+                "samples": 2
+            },
+            {
+                "title": "Umbral Ultimatum",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Umbral-Ultimatum/",
+                "samples": 2
+            },
+            {
+                "title": "Earthsea Borealis",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Earthsea-Borealis/",
+                "samples": 1
+            },
+            {
+                "title": "Terezi Owns",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Terezi-Owns/",
+                "samples": 1
+            },
+            {
+                "title": "Eridan's Theme",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Eridan%27s-Theme/",
+                "samples": 1
+            },
+            {
+                "title": "Chill Jailbreak Alarm to Study and Relax T",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Chill-Jailbreak-Alarm-to-Study-and-Relax-T/",
+                "samples": 1
+            },
+            {
+                "title": "Cool Mixtape",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Cool-Mixtape/",
+                "samples": 1
+            },
+            {
+                "title": "Snowdin Town",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Snowdin-Town/",
+                "samples": 1
+            },
+            {
+                "title": "Octoroon Rangoon",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Octoroon-Rangoon/",
+                "samples": 1
+            },
+            {
+                "title": "Dupliblaze COMAGMA",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Dupliblaze-COMAGMA/",
+                "samples": 1
+            },
+            {
+                "title": "Home",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Home/",
+                "samples": 1
+            },
+            {
+                "title": "Happy Cat Song",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Happy-Cat-Song/",
+                "samples": 1
+            },
+            {
+                "title": "Hardchorale",
+                "url": "https://www.whosampled.com/Alexander-Rosetti/Hardchorale/",
+                "samples": 1
+            },
+            {
+                "title": "John Sleeps / Skaian Magicant",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/John-Sleeps-Skaian-Magicant/",
+                "samples": 2
+            },
+            {
+                "title": "The Thirteenth Hour",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/The-Thirteenth-Hour/",
+                "samples": 1
+            },
+            {
+                "title": "Judgement Day",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Judgement-Day/",
+                "samples": 1
+            },
+            {
+                "title": "Start Menu",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/Start-Menu/",
+                "samples": 1
+            },
+            {
+                "title": "You Can Always Come Home",
+                "url": "https://www.whosampled.com/Toby-%22Radiation%22-Fox/You-Can-Always-Come-Home/",
+                "samples": 1
+            },
+            {
+                "title": "Drift Into the Sun",
+                "url": "https://www.whosampled.com/Thomas-Ferkol/Drift-Into-the-Sun/",
+                "samples": 1
+            }
+        ],
+        "Tsutchie": [
+            {
+                "title": "Sincerely",
+                "url": "https://www.whosampled.com/Tsutchie/Sincerely/",
+                "samples": 1
+            },
+            {
+                "title": "Tokyo Tower",
+                "url": "https://www.whosampled.com/Tsutchie/Tokyo-Tower/",
+                "samples": 1
+            }
+        ],
+        "DJ Okawari": [
+            {
+                "title": "Flower Dance",
+                "url": "https://www.whosampled.com/DJ-Okawari/Flower-Dance/",
+                "samples": 1
+            },
+            {
+                "title": "Evening Comes 2",
+                "url": "https://www.whosampled.com/DJ-Okawari/Evening-Comes-2/",
+                "samples": 2
+            },
+            {
+                "title": "A Cup of Coffee",
+                "url": "https://www.whosampled.com/DJ-Okawari/A-Cup-of-Coffee/",
+                "samples": 1
+            },
+            {
+                "title": "Synchronize",
+                "url": "https://www.whosampled.com/DJ-Okawari/Synchronize/",
+                "samples": 1
+            }
+        ],
+        "Mittens\u3055\u3093": [
+            {
+                "title": "I Love You Too Much",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/I-Love-You-Too-Much/",
+                "samples": 1
+            },
+            {
+                "title": "Trying My Best",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Trying-My-Best/",
+                "samples": 2
+            },
+            {
+                "title": "Too Easily",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Too-Easily/",
+                "samples": 1
+            },
+            {
+                "title": "Tired of Love.",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Tired-of-Love./",
+                "samples": 1
+            },
+            {
+                "title": "Winter Break",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Winter-Break/",
+                "samples": 1
+            },
+            {
+                "title": "I Can't Imagine a Life Without U",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/I-Can%27t-Imagine-a-Life-Without-U/",
+                "samples": 1
+            },
+            {
+                "title": "\u3042\u306a\u305f\u306f\u597d\u304d\u3067\u3059\u3002",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%80%82/",
+                "samples": 1
+            },
+            {
+                "title": "What Went Wrong",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/What-Went-Wrong/",
+                "samples": 1
+            },
+            {
+                "title": "World Made of Glass.",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/World-Made-of-Glass./",
+                "samples": 1
+            },
+            {
+                "title": "Akari",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Akari/",
+                "samples": 1
+            },
+            {
+                "title": "How You Make Me Feel",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/How-You-Make-Me-Feel/",
+                "samples": 1
+            },
+            {
+                "title": "The One.",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/The-One./",
+                "samples": 1
+            },
+            {
+                "title": "Limitless.",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Limitless./",
+                "samples": 1
+            },
+            {
+                "title": "We Don't Talk Anymore . . .",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/We-Don%27t-Talk-Anymore-.-.-./",
+                "samples": 1
+            },
+            {
+                "title": "Untitled.",
+                "url": "https://www.whosampled.com/Mittens%E3%81%95%E3%82%93/Untitled./",
+                "samples": 1
+            }
+        ]
+    }
+}

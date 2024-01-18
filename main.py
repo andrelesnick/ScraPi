@@ -226,7 +226,7 @@ while True:
             if notification_content:
                 print('Update for ' + scraper.filename + ' found! Sending notification...')
                 send_notification(notification_content, scraper)
-                scraper.save_storage()
+                scraper.save_storage() # scrapers might save storage in between 
             # update check_again time
             scraper.update_check()
             print(f"Scraped {scraper.filename} at {datetime.now().strftime('%H:%M:%S')}")

@@ -1,7 +1,8 @@
 import time
 from bs4 import BeautifulSoup as bs
 import requests
-import re
+import re, random
+from fake_useragent import UserAgent
 
 import datetime
 from .Scraper import Scraper
@@ -46,9 +47,43 @@ class WhoSampledScraper(Scraper):
             start_url = parts[1]
         
             # add delay to prevent flooding
-            time.sleep(1)
-            response = requests.get(url, headers=self.headers)
-            response.raise_for_status()
+            time.sleep(3+random.random()*3) # sleep so site isnt flooded
+            agent = self.ua.random
+            while agent in self.data['excluded_agents']:
+                agent = self.ua.random
+            header = {'User-Agent':agent}
+            print('debug: current header:', header)
+            response = requests.get(url, headers=header)
+            attempts = 0
+            while response.status_code != 200:
+                attempts += 1
+                if attempts > 3 and len(new_samples) > 0:
+                    # too many errors, so abort scraper, and send samples found so far
+                    return {
+                        'type': 'email',
+                        'subject': 'New Sample(s) Found! (with errors)',
+                        'plaintext': str(new_samples),
+                        'html': generate_html(new_samples)
+                    }
+                    response.raise_for_status()
+                # if error code is 401, then the user agent is blocked
+                # so save current discovered samples and change user agent
+                if response.status_code == 401:
+                    print("User agent blocked, changing user agent...")
+                    self.data['excluded_agents'].append(agent)
+                    self.save_storage()
+                    agent = self.ua.random
+                    while agent in self.data['excluded_agents']:
+                        agent = self.ua.random
+                    header = {'User-Agent':agent}
+                    print('debug: current header:', header)
+                    response = requests.get(url, headers=header)
+                else:
+                    print("Error:", response.status_code)
+                    print("Sleeping for 5 minutes...")
+                    time.sleep(300)
+                    print("Trying again...")
+                    response = requests.get(url, headers=header)
 
             soup = bs(response.text, 'lxml')
             # with open("output.html", "w", encoding='utf-8') as file:
@@ -126,8 +161,10 @@ class WhoSampledScraper(Scraper):
                 current_page_url = next_button.find('a')['href']
 
             while has_next_button:
-                time.sleep(2) # sleep so site isnt flooded
-                response = requests.get(base_url+current_page_url, headers=self.headers)
+                time.sleep(4+random.random()*3) # sleep so site isnt flooded
+                header = {'User-Agent':self.ua.random}
+                print('debug: current header:', header)
+                response = requests.get(base_url+current_page_url, headers=header)
                 response.raise_for_status()
 
                 soup = bs(response.text, 'lxml')
